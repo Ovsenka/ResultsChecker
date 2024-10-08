@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 public class ApplineTest {
 
     @Test
-    public void isReadyResults() {
+    public void resultsTest() {
         ApplinePage page = new ApplinePage();
         page.open();
         MainPage mainPage = page.login(Configuration.LOGIN, Configuration.PASSWORD);
